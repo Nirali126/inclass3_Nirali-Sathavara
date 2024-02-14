@@ -1,0 +1,44 @@
+/* Nirali Sathavara - 8927978 */
+
+.structural {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(13, 6, 6);
+}
+
+header {
+    background-color: hsl(0, 53%, 45%);
+}
+
+aside {
+    background-color: hsl(120, 60%, 41%);
+    float: left;
+    width: 20%; 
+}
+
+main {
+    background-color: hsl(240, 64%, 49%);
+    float: left;
+    width: 75%; 
+}
+
+footer {
+    background-color: hsl(60, 85%, 35%);
+    clear: both;
+}
+
+#paragraph1 {
+    color: rgb(187, 7, 7);
+}
+
+#paragraph2 {
+    color: rgba(31, 31, 189, 0.91);
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+footer p::before {
+    content: "\00A9"; 
+}
